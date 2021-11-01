@@ -22,3 +22,15 @@ h1 {
   line-height: 1.2;
   margin: 10px 0;
 }
+
+.navbar {
+  background-color: #e6e6e6;
+  height: 70px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
