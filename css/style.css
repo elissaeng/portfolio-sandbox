@@ -167,12 +167,46 @@ h1 {
   } */
 }
 
+/* @media (max-width: 863px) {
+  .main-container {
+    width: 95%;
+  }
+  .painting-wrapper {
+    
+    width: 550px;
+    margin: auto;
+  }
+} */
+
+@media (max-width: 1022px) {
+  .main-container {
+    width: 95%;
+  }
+  .painting-wrapper {
+    
+    width: 550px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 965px) {
+  .main-container {
+    width: 95%;
+  }
+  .painting-wrapper {
+    
+    width: 550px;
+    margin: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .main-container {
     width: 95%;
   }
-  #painting {
-    height: 40%;
+  .painting-wrapper {
+    width: 550px;
+    margin: auto;
   }
 }
 
@@ -182,6 +216,17 @@ h1 {
   }
   #painting {
     height: 40%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* .main-container {
+    width: 95%;
+  } */
+  #painting {
+    width: 550px;
+    margin: auto;
+    
   }
 }
 
