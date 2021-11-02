@@ -21,6 +21,11 @@ html, body {
   overflow: auto;
 }
 
+.s2 {
+  background-color: #e6e6e6;
+  overflow: auto;
+}
+
 /* Navbar */
 ul {
   display: flex;
@@ -109,18 +114,3 @@ h1 {
 
 
 
-/* Utilities */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-  display: flex;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
