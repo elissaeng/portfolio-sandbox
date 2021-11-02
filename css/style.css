@@ -53,10 +53,94 @@ img {
 }
 
 /* Showcase */
+/* .painting {
+  width: 550px;
+  height: 550px;
+  position: relative;
+  top: 100px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}  */
+
+/* .outer-container {
+display: flex;
+justify-content: center;
+background-color: #e2d2cf;
+} */
+
+/* .artist {
+font-family: 'Staatliches', cursive;
+font-size: 400%;
+position: relative;
+bottom: 472px;
+left: -161px;
+text-shadow: 3px 3px white; 
+} */
+
+/* .developer {
+font-family: 'Chakra Petch', sans-serif;
+font-size: 392%;
+position: relative;
+bottom: 542px;
+left: 400px;
+text-shadow: 2px 2px limegreen;
+} */
+
+/* .brushstroke {
+  width: 50px;
+  height: 200px;
+  position: relative;
+  left: -66px;
+  bottom: 483px;
+  transform: skew(-4deg, -17deg) rotate(65deg);
+} */
+
+/* .brushstroke-code {
+  width: 50px;
+  height: 200px;
+  position: relative;
+  left: 471px;
+  bottom: 433px;
+  transform: skew(12deg, 335deg) rotate(308deg);
+} */
+
 .showcase {
   background-color: #e2d2cf;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
+
+
+.painting {
+  width: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+} 
+
+.artist {
+  font-family: 'Staatliches', cursive;
+  font-size: 400%;
+  position: relative;
+  bottom: 472px;
+  left: 40px;
+  text-shadow: 3px 3px white; 
+  display: flex;
+}
+
+.developer {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 392%;
+  position: relative;
+  bottom: 542px;
+  left: 400px;
+  text-shadow: 2px 2px limegreen;
+} 
 
 /* .painting {
   width: 550px;
@@ -83,15 +167,9 @@ img {
   width: 550px;
   margin-top: 100px;
   margin-bottom: 100px;
-}  */
+} 
 
-.painting {
-  width: 550px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  /* display: flex;
-  align-items: center; */
-}
+
 
 /* Utilities */
 .container {
