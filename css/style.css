@@ -102,21 +102,23 @@ h1 {
 }
 
 /* Showcase */
-.painting {
-  width: 550px;
-  height: 550px;
-  position: relative;
-  top: 100px;
+.painting-wrapper {
+  margin-top: 51px;
   display: flex;
   justify-content: center; 
-  align-items: center;
+  margin-bottom: 118px;
 } 
 
-.outer-container {
+#painting {
+  width: 550px;
+  height: 550px;
+}
+
+/* .outer-container {
   display: flex;
   justify-content: center;
   background-color: #e2d2cf;;
-}
+} */
 
 .artist {
   font-family: 'Staatliches', cursive;
