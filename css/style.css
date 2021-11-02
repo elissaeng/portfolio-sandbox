@@ -120,4 +120,31 @@ h1 {
 }
 
 
+/* TBD on Media Queries */
+@media (max-width: 1200px) {
+  .main-container {
+    width: 95%;
+  }
+  /* #painting {
+    width: 90%;
+  } */
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    width: 95%;
+  }
+  #painting {
+    height: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-container {
+    width: 95%;
+  }
+  #painting {
+    height: 40%;
+  }
+}
 
