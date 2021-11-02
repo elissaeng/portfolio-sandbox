@@ -23,6 +23,11 @@ h1 {
   margin: 10px 0;
 }
 
+/* unsure about this? */
+img {
+  width: 100%;
+}
+
 /* Navbar */
 .navbar {
   background-color: #e6e6e6;
@@ -45,6 +50,47 @@ h1 {
 
 .navbar .flex {
   justify-content: space-between;
+}
+
+/* Showcase */
+.showcase {
+  background-color: #e2d2cf;
+  display: flex;
+}
+
+/* .painting {
+  width: 550px;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* position: relative;
+    
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}  */ 
+
+/* .painting {
+  width: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}  */
+
+/* .painting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}  */
+
+.painting {
+  width: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* display: flex;
+  align-items: center; */
 }
 
 /* Utilities */
