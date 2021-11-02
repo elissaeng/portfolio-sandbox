@@ -58,8 +58,15 @@ h1 {
   margin: 10px 0;
 }
 
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+  transform: scale(1.15);
+}
 
 
+
+
+/* Showcase */
 .painting {
   width: 550px;
   height: 550px;
