@@ -27,6 +27,21 @@ html, body {
   overflow: auto;
 }
 
+.contact {
+  display: flex;
+  /* display: flex;
+  justify-content: space-between;
+  padding: 12px; */
+}
+
+.social-links {
+  /* display: flex; */
+  /* justify-content: flex-end;
+  display: flex;
+  justify-content: space-between; */
+  padding: 12px 12px 12px 400px;
+}
+
 /* Navbar */
 ul {
   display: flex;
