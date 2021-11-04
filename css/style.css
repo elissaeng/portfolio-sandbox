@@ -27,6 +27,7 @@ html, body {
   overflow: auto;
 }
 
+/* Contact */
 .contact {
   display: flex;
   /* display: flex;
@@ -40,6 +41,11 @@ html, body {
   display: flex;
   justify-content: space-between; */
   padding: 12px 12px 12px 400px;
+}
+
+.social-links a:hover {
+  border-bottom: 2px #fff solid;
+  transform: scale(1.15);
 }
 
 /* Navbar */
@@ -266,6 +272,20 @@ h1 {
     margin: auto;
     margin-top: 51px;
     margin-bottom: 118px;
+    background-color: red;
   }
 }
 
+/* yesss????????? */
+@media (max-width: 414px) {
+  /* .main-container {
+    width: 95%;
+  } */
+  .painting-wrapper #painting {
+    width: 271px;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 118px;
+    background-color: red;
+  }
+}
