@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  /* padding: 0;
-  margin: 0; */
+  padding: 0;
+  margin: 0;
 }
 
 html, body {
@@ -73,11 +73,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-size: 1.1rem;
 }
 
 h1 {
   line-height: 1.2;
   margin: 40px 0;
+  font-size: 2.0rem;
 }
 
 .navbar a:hover {
@@ -93,6 +95,12 @@ h1 {
 	justify-content: center;
   padding-top: 8px;
 	padding-bottom: 103px;
+}
+
+.project-header {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
 }
 
 .post {
@@ -187,15 +195,15 @@ h1 {
 
 
 /* TBD on Media Queries */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .main-container {
     width: 95%;
   }
-  /* #painting {
+  #painting {
     width: 90%;
-  } */
+  }
 
-}
+} */
 
 /* @media (max-width: 863px) {
   .main-container {
@@ -208,7 +216,7 @@ h1 {
   }
 } */
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .main-container {
     width: 95%;
   }
@@ -268,31 +276,67 @@ h1 {
     margin-top: 51px;
     margin-bottom: 118px;
   }
-}
+} */
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) { */
   /* .main-container {
     width: 95%;
   } */
-  #painting {
+  /* #painting {
     width: 550px;
     margin: auto;
     margin-top: 51px;
     margin-bottom: 118px;
     background-color: red;
   }
-}
+} */
 
 /* yesss????????? */
-@media (max-width: 414px) {
-  /* .main-container {
+/* @media (max-width: 414px) {
+  .main-container {
     width: 95%;
-  } */
+  }
   .painting-wrapper #painting {
     width: 271px;
     margin: auto;
     margin-top: 51px;
     margin-bottom: 118px;
     background-color: red;
+  }
+} */
+
+
+
+/* @media (max-width: 1024px) {
+  body {
+    display: none;
+  }
+  #painting {
+    width: 50%;
+    height: 50%;
+  }
+} */
+
+@media (max-width: 1024px) {
+  /* body {
+    display: none;
+  } */
+  /* .main-container {
+    width: 50%;
+    height: 50%;
+  } */
+  #painting {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* body {
+    display: none;
+  } */
+  #painting {
+    width: 350px;
+    height: 350px;
   }
 }
