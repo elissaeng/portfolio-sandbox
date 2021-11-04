@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
 }
 
 html, body {
@@ -331,6 +331,17 @@ h1 {
   }
 }
 
+@media (max-width: 768px) {
+  /* body {
+    display: none;
+  } */
+  #painting {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 500px) {
   /* body {
     display: none;
@@ -339,4 +350,23 @@ h1 {
     width: 350px;
     height: 350px;
   }
+  
+  .navbar {
+    /* height: 110px; */
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .nav {
+    font-size: 1rem;
+    margin-top: -20px;
+  }
+
+  
 }
