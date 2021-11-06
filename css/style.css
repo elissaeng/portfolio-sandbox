@@ -40,8 +40,6 @@ html, body {
   display: flex;
   justify-content: space-between;
   padding: 12px;
-  /* background-color: #e6e6e6; */
-  /* box-shadow: 0 0 35px 25px #e2d2cf inset; */
   font-family: 'Heebo', sans-serif;
 }
 
@@ -63,6 +61,17 @@ html, body {
 	height: 100px;
 	object-fit: cover;
   padding: 20px;
+}
+
+.contact-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.connect {
+  justify-content: center;
+  padding: 20px 20px 20px 0px;
 }
 
 /* Navbar */
