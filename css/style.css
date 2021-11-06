@@ -59,6 +59,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0px 0px 38px;
 }
 
 .connect {
