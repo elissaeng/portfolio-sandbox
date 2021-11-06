@@ -41,9 +41,26 @@ html, body {
   justify-content: flex-end;
 }
 
-.contact-links a:hover {
+/* .contact a:hover {
   border-bottom: 2px #fff solid;
   transform: scale(1.15);
+} */
+
+/* .contact a:before {
+  bottom: -5px;
+} */
+
+.contact-items a:hover {
+  transform: scale(1.15);
+}
+
+.contact-items a:hover:after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 10;
+  border-bottom: 2px #fff solid;
 }
 
 /* New Contact styles */
