@@ -52,13 +52,13 @@ html, body {
   font-family: 'Heebo', sans-serif;
 }
 
-.contact-items {
+.contact-links {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.social-links a:hover {
+.contact-links a:hover {
   border-bottom: 2px #fff solid;
   transform: scale(1.15);
 }
