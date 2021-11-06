@@ -43,6 +43,21 @@ html, body {
   padding: 12px 12px 12px 400px;
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  /* background-color: #e6e6e6; */
+  /* box-shadow: 0 0 35px 25px #e2d2cf inset; */
+  font-family: 'Heebo', sans-serif;
+}
+
+.contact-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .social-links a:hover {
   border-bottom: 2px #fff solid;
   transform: scale(1.15);
