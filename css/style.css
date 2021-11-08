@@ -89,6 +89,7 @@ html, body {
 ul {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -498,7 +499,15 @@ h1 {
   .nav {
     font-size: 1rem;
     margin-top: -20px;
+
+    /* to center nav on iphone 6/7/8 */
+    /* margin-right: 42px; */
   }
+
+  /* .hover {
+    justify-content: center;
+    padding: 0;
+  } */
 
   .contact-items {
     margin-right: 69px;
