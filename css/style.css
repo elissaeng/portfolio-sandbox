@@ -8,6 +8,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Heebo', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .main-container {
@@ -75,7 +76,13 @@ html, body {
   display: flex;
   justify-content: space-between;
   padding: 12px;
-  font-family: 'Heebo', sans-serif;
+  /* font-family: 'Heebo', sans-serif; */
+
+  /* Titillium Web */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .contact-links {
@@ -131,6 +138,12 @@ html, body {
   padding: 20px 20px 20px 0px;
 }
 
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;;
+}
 
 /* Navbar */
 ul {
@@ -151,7 +164,15 @@ a {
   padding: 12px;
   /* background-color: #e6e6e6; */
   /* box-shadow: 0 0 35px 25px #e2d2cf inset; */
-  font-family: 'Heebo', sans-serif;
+
+  /* font-family: 'Heebo', sans-serif; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+
+  /* Titillium Web */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .nav {
