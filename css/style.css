@@ -281,11 +281,6 @@ h1 {
     /* flex-direction: column; */
     display: grid;
   }
-
-  .contact-thumbnail {
-    width: 75px;
-    height: 75px;
-  }
 }
 
 /* TABLETS */
@@ -298,29 +293,30 @@ h1 {
     height: 450px;
   }
 
-  /* .contact-items {
-    margin-right: 69px;
+  .contact-items {
+    /* margin-right: 69px; */
     margin-bottom: 31px;
-  } */
+  }
    
-
-  /* .contact-thumbnail {
+  .contact-thumbnail {
     width: 75px;
     height: 75px;
-  } */
+    display: grid;
+    justify-content: center;
+  }
 
-  /* .connect {
+  .connect {
     flex-direction: column;
     font-size: 1.8rem;
     margin-bottom: -2px;
     padding-top: 55px;
-  } */
+  }
 
-  /* .contact {
+  .contact {
     flex-direction: column;
-    margin-top: -20px;
-    margin-bottom: -20px;
-  } */
+    /* margin-top: -20px;
+    margin-bottom: -20px; */
+  }
 }
 
 /* OTHER */
