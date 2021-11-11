@@ -78,11 +78,6 @@ html, body {
   padding: 12px;
   /* font-family: 'Heebo', sans-serif; */
 
-  /* Titillium Web */
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Titillium Web', sans-serif;
 }
 
 .contact-links {
@@ -138,12 +133,14 @@ html, body {
   padding: 20px 20px 20px 0px;
 }
 
-.about-text {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Titillium Web', sans-serif;;
+.sub-text {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.5rem;
 }
+
+/* .about-text {
+  justify-content: flex-end;
+} */
 
 /* Navbar */
 ul {
@@ -169,9 +166,6 @@ a {
   /* font-family: 'Roboto Condensed', sans-serif; */
 
   /* Titillium Web */
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -186,6 +180,7 @@ h1 {
   line-height: 1.2;
   margin: 40px 0;
   font-size: 2.0rem;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /* .nav a:hover {
@@ -223,9 +218,8 @@ h1 {
 }
 
 .project-header {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 25px;
-  font-size: 20px;
 }
 
 .post {
@@ -261,6 +255,11 @@ h1 {
   font-style: italic;
   color: #4b5156;
 	font-size: 14px;
+}
+
+.projects-text {
+  justify-content: flex-start;
+  font-size: 2.5rem;
 }
 
 /* Showcase */
