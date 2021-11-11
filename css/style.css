@@ -95,6 +95,7 @@ html, body {
 
 .contact-items a:hover {
   transform: scale(1.15);
+  /* opacity: 1.0; */
 }
 
 .contact-items a:hover:after {
@@ -104,6 +105,7 @@ html, body {
   right: 25%;
   bottom: 10;
   border-bottom: 2px #fff solid;
+  /* opacity: 1.0; */
 }
 
 /* New Contact styles */
@@ -113,7 +115,7 @@ html, body {
 	height: 100px;
 	object-fit: cover;
   padding: 20px;
-  
+  /* opacity: 82%; */
 }
 
 .contact-items {
@@ -121,7 +123,7 @@ html, body {
   align-items: center;
   justify-content: flex-end;
   padding: 0px 0px 38px;
-  
+  /* opacity: .5; */
 }
 
 .connect {
