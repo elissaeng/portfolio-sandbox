@@ -251,133 +251,8 @@ h1 {
 }
 
 
-/* TBD on Media Queries */
-/* @media (max-width: 1200px) {
-  .main-container {
-    width: 95%;
-  }
-  #painting {
-    width: 90%;
-  }
 
-} */
-
-/* @media (max-width: 863px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper {
-    
-    width: 550px;
-    margin: auto;
-  }
-} */
-
-/* @media (max-width: 1100px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper {
-    
-    width: 550px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-  }
-}
-
-@media (max-width: 1022px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper {
-    
-    width: 550px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-  }
-}
-
-@media (max-width: 965px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper {
-    
-    width: 550px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper {
-    width: 550px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-  }
-}
-
-@media (max-width: 500px) {
-  .main-container {
-    width: 95%;
-  }
-  #painting {
-    height: 40%;
-    margin-top: 51px;
-    margin-bottom: 118px;
-  }
-} */
-
-/* @media (max-width: 414px) { */
-  /* .main-container {
-    width: 95%;
-  } */
-  /* #painting {
-    width: 550px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-    background-color: red;
-  }
-} */
-
-/* yesss????????? */
-/* @media (max-width: 414px) {
-  .main-container {
-    width: 95%;
-  }
-  .painting-wrapper #painting {
-    width: 271px;
-    margin: auto;
-    margin-top: 51px;
-    margin-bottom: 118px;
-    background-color: red;
-  }
-} */
-
-/* @media (max-width: 1024px) {
-  body {
-    display: none;
-  }
-  #painting {
-    width: 50%;
-    height: 50%;
-  }
-} */
-
-
-
-
-
-/* MEDIA THAT IS WORKING */
-
+/* MEDIA QUERIES */
 
 @media (max-width: 1024px) {
   /* body {
@@ -406,6 +281,11 @@ h1 {
     /* flex-direction: column; */
     display: grid;
   }
+
+  .contact-thumbnail {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 /* TABLETS */
@@ -418,29 +298,29 @@ h1 {
     height: 450px;
   }
 
-  .contact-items {
+  /* .contact-items {
     margin-right: 69px;
     margin-bottom: 31px;
-  }
+  } */
    
 
-  .contact-thumbnail {
+  /* .contact-thumbnail {
     width: 75px;
     height: 75px;
-  }
+  } */
 
-  .connect {
+  /* .connect {
     flex-direction: column;
     font-size: 1.8rem;
     margin-bottom: -2px;
     padding-top: 55px;
-  }
+  } */
 
-  .contact {
+  /* .contact {
     flex-direction: column;
     margin-top: -20px;
     margin-bottom: -20px;
-  }
+  } */
 }
 
 /* OTHER */
