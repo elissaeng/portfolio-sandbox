@@ -135,7 +135,8 @@ html, body {
 
 .sub-text {
   font-family: 'Exo 2', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  /* font-family: 'Titillium Web', sans-serif; */
 }
 
 /* .about-text {
@@ -181,6 +182,7 @@ h1 {
   margin: 40px 0;
   font-size: 2.0rem;
   font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Exo 2', sans-serif; */
 }
 
 /* .nav a:hover {
@@ -259,7 +261,7 @@ h1 {
 
 .projects-text {
   justify-content: flex-start;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Showcase */
