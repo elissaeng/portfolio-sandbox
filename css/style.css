@@ -106,12 +106,47 @@ html, body {
 /* ABOUT */
 .about-wrapper {
   padding: 33px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-columns: 1fr 1fr 2fr; */
+  /* gap: 100px; */
 }
 
-.about-p {
+/* .about-p {
   padding-top: 33px;
+  align-items: flex-end;
+} */
+
+.about-column {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.about-text {
+  padding-bottom: 0;
+}
+
+.about-pics {
+  /* padding-bottom: 33px; */
+  border-radius: 50%;
+  width: 50%;
+  height: 75%;
+  object-fit: cover;
+  justify-self: end;
+  margin-right: 31px;
+  /* margin-top: -67px; */
+  /* display: grid; */
+  /* justify-content: end; */
+  /* grid-template-columns:  0fr 1fr; */
+
+}
+
+.about-pics-2 {
+  border-radius: 50%;
+  width: 50%;
+  height: 75%;
+  object-fit: cover;
+  justify-self: center;
 }
 
 /* Navbar */
