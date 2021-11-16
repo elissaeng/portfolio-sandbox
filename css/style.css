@@ -39,11 +39,11 @@ html, body {
 
 }
 
-.contact-links {
+/* .contact-links {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-}
+} */
 
 /* .contact a:hover {
   border-bottom: 2px #fff solid;
@@ -106,6 +106,12 @@ html, body {
 /* ABOUT */
 .about-wrapper {
   padding: 33px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-p {
+  padding-top: 33px;
 }
 
 /* Navbar */
