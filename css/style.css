@@ -129,8 +129,8 @@ html, body {
 .about-pics {
   /* padding-bottom: 33px; */
   border-radius: 50%;
-  width: 50%;
-  height: 75%;
+  width: 60%;
+  height: 85%;
   object-fit: cover;
   justify-self: end;
   margin-right: 31px;
@@ -143,8 +143,8 @@ html, body {
 
 .about-pics-2 {
   border-radius: 50%;
-  width: 50%;
-  height: 75%;
+  width: 60%;
+  height: 85%;
   object-fit: cover;
   justify-self: center;
 }
