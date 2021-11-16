@@ -21,53 +21,12 @@ html, body {
 .s1 {
   /* OG color */
   background-color: #e2d2cf;
-
-  /* Champagne pink */
-  /* background-color: #EEDDD3; */
-
-  /* Champagne pink 2*/
-  /* background-color: #E8D1C5; */
-
-  /* Champagne pink 3 */
-  /* background-color: #EDDCD2; */
-
-  /* Champagne pink 4 */
-  /* background-color: #E0D1c8; */
-
-    /* Champagne pink 5 */
-    /* background-color: #E0cBc8; */
-
-
-  /* Isabelline */
-  /* background-color: #F8EDEB; */
-
-  /* background-color: #E9DDDB; */
-  /* background-color: #EFE7E6; */
-
-   /* Linen */
-   /* background-color: #ECE4DB; */
-
   overflow: auto;
 }
 
 .s2 {
   /* OG color */
   background-color: #e6e6e6;
-
-  /* Platinum */
-  /* background-color: #EDEDE8; */
-  /* background-color: #E3E5E4; */
-
-  /* Gainsboro */
-  /* background-color: #DDDFDE; */
-  /* background-color: #DCDCDA; */
-
-  /* Silver Sand */
-  /* background-color: #C7C9C8; */
-
-
-  /* Linen */
-  /* background-color: #ECE4DB; */
   overflow: auto;
 }
 
@@ -336,10 +295,6 @@ h1 {
   /* body {
     display: none;
   } */
-  /* .main-container {
-    width: 50%;
-    height: 50%;
-  } */
   #painting {
     width: 500px;
     height: 500px;
@@ -468,9 +423,6 @@ h1 {
   .nav {
     font-size: 1rem;
     margin-top: -20px;
-
-    /* to center nav on iphone 6/7/8 */
-    /* margin-right: 42px; */
   }
 
   /* .hover {
